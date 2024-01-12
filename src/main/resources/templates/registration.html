@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" th:href="@{/css/registration.css}">
+
+</head>
+<body>
+
+<h1>User Registration:</h1>
+ <form action="register" method="post">
+ <div class="name">
+ <label>User name :</label>
+ <input type="text" name="username"/>
+ <br>
+ </div>
+ <div class="mail">
+  <label>Email :</label>
+ <input type="email" name="email"/>
+ <br>
+ </div>
+ <div class="password">
+  <label>Password:</label>
+ <input type="password" name="password"/>
+ <br>
+ </div>
+ <div class="gender">
+  <label>Gender :</label>
+ M<input type="radio" name="gender" value="male"/>
+  F<input type="radio" name="gender" value="female"/>
+   O<input type="radio" name="gender" value="other"/>
+ <br>
+ </div>
+ <div class="role">
+ <label>Role : </label>
+ Admin<input type="radio" name="role" value="admin"/>
+  Customer<input type="radio" name="role" value="customer"/>
+  <br>
+  </div>
+  <div class="address">
+  <label>Address : </label>
+  <textarea name="address"></textarea>
+  <br>
+  </div>
+  <input type="submit" />
+ </form>
+
+</body>
+</html>

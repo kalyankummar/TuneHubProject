@@ -1,0 +1,39 @@
+/* display.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+thead {
+  background-color: #0080c0;
+    color: #fff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+audio {
+    width: 100%;
+    margin-top: 5px;
+}
+
+/* Adjust the size of the iframe */
+iframe {
+    height: 100px;
+    width: 500px;
+}
